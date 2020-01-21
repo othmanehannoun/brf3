@@ -210,7 +210,7 @@ video{
   }
 
   .team .team_member .div2 button{
-    background-color: #406992;
+    background-color: #C49D48;
     color: #FFF; 
     padding: 5px 32px;
     text-align: center;
@@ -224,7 +224,7 @@ video{
 
   .team .team_member .div2 button:hover{
     background-color: #FFF;
-    border: 2px solid #405e7c;
+    border: 2px solid#C49D48;
     color: black; 
   }
 
@@ -250,13 +250,21 @@ tr{
 .pawer table button{
   margin-top: 24px;
   margin-left: 15px;
-  background-color: #406992;
+  background-color: #C49D48;
   color: #FFF;
   text-decoration: none;
   border: none;
   padding: 5px 20px;
   cursor: pointer;
 }
+
+.pawer table button:hover{
+  background-color: #FFF;
+  border: 2px solid #C49D48;
+  color: black; 
+  
+}
+
 
 .pawer img{
  margin-bottom: 20px;
@@ -282,23 +290,28 @@ tr{
 
 
 
-/* start Footer */
+/* ------------Start Footer------------ */
+
+
 
 .section7{
 
   display: flex;
   flex-wrap: wrap;
- margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .section7 h1{
  color: #688095;
+ font-size: 24px;
+    margin-bottom: 30px;
 }
 
 .ft{
-  background-image: url(image/twil.png);
+    background-image: url(image/twil.png);
     height: 120px;
     padding: 2%;
     margin-top: 10%;
+    margin-bottom: 80px;
  }
  .ft1con{
   display: flex;
@@ -310,156 +323,153 @@ tr{
 
  }
  .ft1con input{
-flex-basis: 70%;
-height: 61px;
-width: 300px;
-text-align: center;
-
+  flex-basis: 70%;
+  height: 61px;
+  width: 300px;
+  text-align: center;
 }
 
  .ft1con button{
- flex-basis: 25%;    
- background:#C49D48;
- border:none; 
- height: 61px;
- width: 100px;
- color: #fff;
- font-weight: bolder;
- text-align: center;
-}
+  flex-basis: 25%;    
+  background:#C49D48;
+  border:none; 
+  height: 61px;
+  width: 100px;
+  color: #fff;
+  font-weight: bolder;
+  text-align: center;
+  }
 
 @media (max-width: 900px){
   .ft1con input{
   flex-basis: 100%;
   height: 61px;
 
-
-
  }
  .ft1con button{
   flex-basis: 100%;
-
  }
  }
  
-.ft1{
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15%;
+  margin-bottom: 60px;
+}
+.footer p{
 
-  flex-basis: 33%;
-  text-align: center;
-  margin-top: 90px;
-
+  font-size: 13px;
+  font-family:sans-serif;
 }
 
-.ft2{
-
-  flex-basis: 33%;
-  text-align: center;
-  margin-top: 90px;
-     
+.f1{
+  flex-basis: 33.33%;
+   text-align: left;
+   margin-left: -67px;
+}
+.f2{
+  flex-basis: 33.33%;
+  margin-left: 80px;
+}
+.f3{
+  flex-basis: 33.33%;
+  margin-left: -80px;
+  text-align: left;
+}
+.f3 p{
+  color: #A29D9D;
+  margin-bottom: 15px;
+}
+.f3 h3{
+  font-family: Arial;
+  font-size: 15px;
+}
+.footer h2{
+  margin-bottom: 30px;
+  color: #688095;
+  font-family: Arial;
+  font-size: 20px;
+}
+.f2 ul{
+  list-style: none;
+  text-align: left;
 
 }
-.ft2 ul{
-   list-style: none;
-
+.f2 ul a{
+ text-decoration: none;
+ color: #AAA9A9;
 }
-.ft2 ul a{
-  text-decoration: none;
-  color: #AAA9A9;
+.f2 ul li a:hover{
+ color: #EFD6AC;
 }
-.ft2 ul li a:hover{
-  color: #EFD6AC;
+.footer i{
+  margin: 2% 5%;
+  font-size: 10px;
+  
 }
 
-.ft3{
-
-  flex-basis: 33%;
-  text-align: center;
-  margin-top: 90px;
-
-}
 .lastft{
   background: #688095;
   width: 100%;
+  height: 30px;
   display: flex;
   flex-wrap: wrap;
-  color: #fff;
+  color: #CCCCCC;
 }
 .lastul ul li{
   float: left;
   list-style: none;
-  padding-right: 3%
+  margin: 0% 3%;
+  margin-top: 7px;
+  font-family: Arial;
 }
+
 .lastspan{
-  flex-basis: 50%;
+  flex-basis: 30%;
+  margin-left: 10%;
+  margin: 0 10%;
+  font-family: Arial;
+  margin-top: 7px;
 }
 .lastul{
   flex-basis: 50%;
-
 }
 
-
-  @media (max-width: 800px){
-
-
-.column1,.column2{
-  flex-basis: 100%;
-  
-  }
-.column3,.column4{
-    display: none;
-  }
-
-
-
-.ft1{
-
-  flex-basis: 100%;
-  text-align: center;
-  margin-top: 20px;
-
-}
-
-  .ft2{
-  order: 1;
-  flex-basis: 100%;
-  text-align: center;
-  margin-top: 20px;
-     
-
-}
-
-.ft3{
-
-  order: 2;
-  flex-basis:100%;
-  text-align: center;
-  margin-top: 20px;
-
-}
-
-  }
-
-.footer{
-  display: flex;
-  flex-wrap: wrap;
-}
-.section7{
-  flex-basis: 100%
-}
 .lastfooter{
   flex-basis: 100%;
   color: #fff;
   width: 100%
 }
-@media(max-width: 900px){
-.section7{
-  flex-basis: 100%
-}
-.lastfooter{
-  flex-basis: 100%;
-  order:1;
-}
+
+
+
+@media (max-width: 900px){
+  .f1{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 30px;
+  }
+ 
+  .f2{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    margin-left: -42%;
+  }
+  .f2 ul{
+    margin-left: 50%;
+  }
+  .f3{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+  .lastft{
+    height: 10vh;
+  }
+  
 }
 
-/* End Footer */
+/* ------------End Footer------------ */
   
